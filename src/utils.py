@@ -1,5 +1,5 @@
 import logging
 
 
-logging.basicConfig(format='%(levelname)s:%(message)s',level=logging.DEBUG)
+logging.basicConfig(format='"time(%(asctime)s) level(%(levelname)s) => %(message)s"',level=logging.DEBUG)
 logger = logging.getLogger("logger")
